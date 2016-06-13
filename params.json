@@ -1,0 +1,6 @@
+{
+  "name": "Dissuptyper",
+  "tagline": "R source code for performing disease subtyping through a systems biology approach for unsupervised clustering of high-dimensional data",
+  "body": "\r\ndisSubtyper performs disease subtyping through a systems biology approach for unsupervised clustering of high-dimensional data.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
