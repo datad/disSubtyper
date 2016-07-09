@@ -61,9 +61,9 @@ for(i in seq_len(length(kegg))){
     {
       resultList[[i]] <- as.list(clusterByPathwayK(kegg[[i]], survivalData))
     }else if(typeOfClustering == 2){
-      resultList[[i]] <- as.list(clusterByPathwayHC(kegg[[i]], survivalData))
-    }else{
       resultList[[i]] <- as.list(clusterByPathwaySNF(kegg[[i]], survivalData))
+    }else{
+      resultList[[i]] <- as.list(clusterByPathwayHC(kegg[[i]], survivalData))
     }
     k <-  resultList[[i]]$kaplan
     kaplanq[i] <-k$chisq
